@@ -41,14 +41,16 @@ li {
 button {
   font-size: 1.25em;
   font-weight: bold;
-  padding: 10px 30px;
+  padding: 5px 20px;
   border-radius: 15px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
   color: white;
-  background-color: blueviolet;
+  background-color: darkgray;
 }
 button:hover {
-  background-color: rgb(101, 33, 165);
+  background-color: white;
+  color: black;
+  transition: 2se;
 }
 .containt {
   max-width: 1400px;
@@ -64,11 +66,11 @@ header #logo {
   color: white;
   font-size: 1.6em;
   border-radius: 60%;
-  height: 7em;
-  width: 7em;
+  height: 5em;
+  width: 5em;
 }
 #logo:hover {
-  background-color: blueviolet;
+  background-color: white;
   border-radius: 60px;
   color: darkgrey;
 }
@@ -93,7 +95,7 @@ header a {
 a:hover {
   color: black;
   border-radius: 5px;
-  background-color: blueviolet;
+  background-color: white;
 }
 .modal {
   display: none;
